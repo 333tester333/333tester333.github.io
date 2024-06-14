@@ -156,3 +156,26 @@ button:hover{
         height: 200%;
     }
 }
+
+@media screen and (max-width: 560px) {
+    #btnCoin{
+        width: 250px;
+        height: 250px;
+    }
+    #left-block h1, #listing h1{
+        font-size: 20px;
+    }
+    #balance{
+        font-size: 20px;
+    }
+    #listing{
+        width: 200px;
+        height: 40px;
+        margin: auto;
+        margin-left: 30px;
+    }
+    #btn-block{
+        display: flex;
+        flex-direction: column;
+    }
+}
