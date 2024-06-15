@@ -10,7 +10,7 @@
     <div id="main">
         <div id="left-block">
             <h1>Бахмут коин</h1>
-            <img src="./sticker.webp" alt="Бахмут коин" id="btnCoin">
+            <img src="./0.webp" alt="Бахмут коин" id="btnCoin">
         </div>
         <div id="right-block">
             <div id="listing">
@@ -19,8 +19,10 @@
             <div id="btn-block">
                 <button onclick="donatopen()">Подержать создателя</button>
                 <button onclick="creator()">Создатель</button>
+                <button onclick="openSkins()">Скины</button>
+                <button onclick="openAutoMiningmenu()">АвтоМайнинг</button>
             </div>
-            <div id="balance">У вас 0 коинов</div>
+            <div id="balance"></div>
         </div>
         <div id="windows">
             <h1>Поддержать создателя</h1>
@@ -35,6 +37,30 @@
                     <img src="./notcoin.png" id="notcoin">
                 </div>
             </div>
+        </div>
+        <div id="skins">
+            <h1>Скины</h1>
+            <p>Все скины стоят по 500 коинов</p>
+            <div id="main-skins">
+                <div id="skin0"><img src="./0.webp"><button onclick="changeSkin(0)">Купить</button></div>
+                <div id="skin1"><img src="./1.webp"><button onclick="changeSkin(1)">Купить</button></div>
+                <div id="skin2"><img src="./2.webp"><button onclick="changeSkin(2)">Купить</button></div>
+                <div id="skin3"><img src="./3.webp"><button onclick="changeSkin(3)">Купить</button></div>
+                <div id="skin4"><img src="./4.webp"><button onclick="changeSkin(4)">Купить</button></div>
+                <div id="skin5"><img src="./5.webp"><button onclick="changeSkin(5)">Купить</button></div>
+                <div id="skin6"><img src="./6.webp"><button onclick="changeSkin(6)">Купить</button></div>
+                <div id="skin7"><img src="./7.webp"><button onclick="changeSkin(7)">Купить</button></div>
+                <div id="skin8"><img src="./8.webp"><button onclick="changeSkin(8)">Купить</button></div>
+                <div id="skin9"><img src="./9.webp"><button onclick="changeSkin(9)">Купить</button></div>
+            </div>
+        </div>
+        <div id="miningMenu">
+            <h1>Майнинг меню</h1>
+            <p>В данном меню можно купить авто майнинг, который делает по 1 клику в секунду. Цена одного кликера 500 коинов.</p>
+            <div id="centerMining">
+                <button onclick="buyMiner()">Купить авто майнер</button>
+            </div>
+            <div id="autominer">У вас купленно n авто майнеров</div>
         </div>
     </div>
     <script src="./script.js"></script>
