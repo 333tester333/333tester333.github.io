@@ -293,3 +293,9 @@ button:hover{
         height: 150%;
     }
 }
+
+@media screen and (max-width: 400px){
+    #skins{
+        height: 340%;
+    }
+}
