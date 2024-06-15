@@ -225,8 +225,6 @@ button:hover{
     color: rgb(176, 202, 224);
 }
 
-
-
 @media screen and (max-width: 1200px) {
     #main{
         flex-direction: column;
@@ -243,6 +241,19 @@ button:hover{
         padding-bottom: 200px;
     }
     #windows{
+        height: 200%;
+    }
+    #main-skins{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #skins{
+        height: 240%;
+    }
+    #miningMenu p{
+        padding: 10px;
+    }
+    #miningMenu{
         height: 200%;
     }
 }
@@ -267,5 +278,18 @@ button:hover{
     #btn-block{
         display: flex;
         flex-direction: column;
+    }
+    #main-skins{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #skins{
+        height: 240%;
+    }
+    #miningMenu p{
+        padding: 10px;
+    }
+    #miningMenu{
+        height: 150%;
     }
 }
